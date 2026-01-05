@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import backUp from "../assets/images/backup.png";
-import { use } from "react";
+
 
 export const MovieDetail = () => {
   const [movie, setMovie] = useState({});
