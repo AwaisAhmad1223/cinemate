@@ -33,7 +33,7 @@ export const Header = () => {
   <div className=" flex flex-wrap items-center justify-between mx-auto">
     <Link to="/" className="flex items-center ">
         <img src={Logo} className="mr-12 h-7 sm:h-9 " alt="CineMate Logo" />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CineMate</span>
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinema Mate</span>
     </Link>
 
     <div id="mobile-nav" className=" flex items-center md:order-2">
